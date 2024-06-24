@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="main.js" defer></script>
+  <title>Form Operation</title>
+</head>
+
+<body>
+  <!-- Text Input Field -->
+  <h2>Text Input Field</h2>
+  <label for="textfield">Enter Text</label><br />
+  <input type="text" id="textfield" />
+  <button id="BtnTextField">OK</button>
+  <p id="txtTextField"></p>
+  <br /><br />
+  <hr />
+  <!-- Text Area -->
+  <h2>Text Area</h2>
+  <label for="textArea">Enter Text</label><br />
+  <textarea id="textArea" cols="30" rows="10"></textarea><br />
+  <button id="BtnTextArea">OK</button>
+  <button id="BtnTextFromTextField">Get text from input field</button>
+  <button id="BtnClear">Clear</button>
+  <p id="txtTextArea"></p>
+  <br /><br />
+  <hr />
+  <!-- Dropdown -->
+  <h2>Dropdown</h2>
+  <label for="dropdown">Select an item</label><br />
+  <select id="dropdown">
+    <option value="red">Red</option>
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+  </select>
+  <br />
+  <button id="BtnDropdown">OK</button>
+  <p id="txtDropdown"></p>
+  <br /><br />
+  <hr />
+  <!-- Radio Button -->
+  <h2>Radio Button</h2>
+  <input type="radio" id="red" name="color" value="red" />
+  <label for="red">Red</label>
+  <input type="radio" id="green" name="color" value="green" />
+  <label for="green">Green</label>
+  <input type="radio" id="blue" name="color" value="blue" />
+  <label for="blue">Blue</label>
+  <br />
+  <button id="BtnRadio">OK</button>
+  <p id="txtRadio"></p>
+  <br /><br />
+  <hr />
+  <!-- Checkbox -->
+  <h2>Checkbox</h2>
+  <input type="checkbox" name="checkcolor" id="checkred" value="red" />
+  <label for="checkred">Red</label>
+  <input type="checkbox" name="checkcolor" id="checkgreen" value="green" />
+  <label for="checkgreen">Green</label>
+  <input type="checkbox" name="checkcolor" id="checkblue" value="blue" />
+  <label for="checkblue">Blue</label>
+  <br />
+  <button id="BtnCheckbox">OK</button>
+  <p id="txtCheckbox"></p>
+  <br /><br />
+  <hr />
+  <!-- Input Event -->
+  <h2>Input Event</h2>
+  <label for="inputevent">Input Event</label>
+  <input type="text" id="inputevent" />
+  <p id="InputResult"></p>
+  <p id="InputNumber"></p>
+  <br /><br />
+  <hr />
+  <!-- Change Event -->
+  <h2>Change Event</h2>
+  <input type="checkbox" name="fruits" id="apple" value="apple" />
+  <label for="apple">Apple</label>
+  <input type="checkbox" name="fruits" id="orange" value="orange" />
+  <label for="orange">Orange</label>
+  <input type="checkbox" name="fruits" id="banana" value="banana" />
+  <label for="banana">Banana</label>
+  <P id="valueList"></P>
+  <br /><br />
+  <hr />
+  <!-- Focus, Blur Event -->
+  <h2>Focus, Blur Event</h2>
+  <label for="focusEvent">Enter Text</label>
+  <input type="text" id="focusEvent" />
+  <p id="focusInput"></p>
+  <br /><br />
+  <hr />
+  <!-- Keydown Event -->
+  <h2>Keydown Event</h2>
+  <p>押されたキーを以下に表示します</p>
+  <p id="keyDown"></p>
+  <br /><br />
+  <hr />
+  <!-- Mouse Move Event -->
+  <h2>Mouse Move Event</h2>
+  <p>マウスの座標を表示します</p>
+  <p id="mouseMove"></p>
+  <br /><br />
+  <hr />
+  <!-- Submit Event -->
+  <h2>Submit Event</h2>
+  <form>
+    <label for="submitEvent">Submit Event</label>
+    <input type="text" id="submitEvent"><br>
+    <button type="submit" id="btnSubmit">ok</button>
+  </form>
+  <p id="txtSubmit"></p>
+
+</body>
+
+</html>
